@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neuedu.his.mapper.CollectMapper">
+
+<!--        <resultMap id="resultMap" type="com.neuedu.his.entity.Collect">-->
+<!--            &lt;!&ndash;        <id column="id" property="id" jdbcType="int"  javaType="Integer"></id>&ndash;&gt;-->
+<!--            <id property="id" column="id"></id>-->
+<!--            <result property="addresser" column="addresser"></result>-->
+<!--            <result property="addresserAddress" column="addresserAddress"></result>-->
+<!--            <result property="addresserPhone" column="addresser_phone"></result>-->
+<!--            <result property="addressee" column="addressee"></result>-->
+<!--            <result property="addresseeAddress" column="addressee_address"></result>-->
+<!--            <result property="addresseePhone" column="addressee_phone"></result>-->
+<!--            <result property="weight" column="weight"></result>-->
+<!--            <result property="cost" column="cost"></result>-->
+<!--            <result property="status" column="status"></result>-->
+
+
+<!--        </resultMap>-->
+
+<!--        &lt;!&ndash; 插入数据&ndash;&gt;-->
+<!--        <insert id="save" parameterType="com.neuedu.his.entity.Collect">-->
+<!--            INSERT INTO upload_files (   id ,-->
+<!--                                         addresser ,-->
+<!--                                         addresser_address ,-->
+<!--                                         addresser_phone ,-->
+<!--                                         addressee ,-->
+<!--                                         addressee_address ,-->
+<!--                                         addressee_phone ,-->
+<!--                                         weight ,-->
+<!--                                         cost ,-->
+<!--                                         status  )-->
+<!--            VALUES   (  #{originName},  #{path},  #{uploadTime},  #{size},  #{ip}  )-->
+<!--        </insert>-->
+</mapper>
