@@ -1,5 +1,5 @@
 server:
-  port: 81
+  port: 8082
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -20,4 +20,4 @@ logging:
     com.neuedu: DEBUG
 
 cros:
-  allow: http://127.0.0.1:80
+  allow: http://127.0.0.1:8081

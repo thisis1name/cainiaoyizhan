@@ -79,6 +79,9 @@ public class Send implements Serializable {
      */
     @TableLogic
     private Integer active;
-
+    /**
+     * 存放位置
+     */
+    private String location;
 
 }

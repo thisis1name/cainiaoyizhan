@@ -22,6 +22,8 @@ public class UserRoleServiceImpl extends ServiceImpl<UserRoleMapper, UserRole> i
     public UserRole getByUserId(Integer userId) {
         QueryWrapper<UserRole> wrapper = new QueryWrapper<>();
         wrapper.eq("user_id",userId);
-        return this.getOne(wrapper);
+        UserRole ur=this.getOne(wrapper);
+        System.out.println("------------"+ur.toString());
+        return ur;
     }
 }
